@@ -22,3 +22,6 @@ router.post("/", (req, res) = {
     //TODO: Else: fetch placeholders, randomly select 1 URL, post to db and send back. 
 
 })
+
+
+export const posts = router;
