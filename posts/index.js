@@ -1,5 +1,5 @@
 import express from "express";
-import posts from "./routes/posts";
+import { posts } from "./routes/posts.js";
 
 const app = express();
 
